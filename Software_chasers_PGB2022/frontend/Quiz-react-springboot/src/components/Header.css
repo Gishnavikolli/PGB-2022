@@ -1,0 +1,11 @@
+.title{
+  text-transform: uppercase;
+  font-size: 5vw; 
+  font-family: sans-serif;
+  color: #fdfdfd;
+}
+.divider{
+    margin:10px;
+    width: 100%;
+    background-color: grey;
+}

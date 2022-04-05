@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <style>body {
+        background: #181927;
+    }
+    
+    body * {
+        font-family: sans-serif;
+    }
+    
+    input, div {
+        position: absolute;
+        margin: auto;
+        height: 50px;
+        width: 90%;
+        max-width: 30pc; 
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 50px;
+        background: #1F2134;
+        outline: none;
+        border: 0;
+        padding: 10px 20px;
+        border-radius: 7px;
+        font-size: 20px;
+        color: crimson;
+    }
+    
+    div {
+        height: fit-content;
+        width: fit-content;
+        bottom: -100px;
+        color: #fff;
+        background: crimson;
+        cursor: pointer;
+    }
+    
+    div:hover {
+        background: crimson;
+    
+    }
+    
+    input::placeholder {
+        color: crimson;
+    }</style>
+</head>
+<body>
+    <input type="text" placeholder="Text to be spoken" id="textInput" />
+
+<div onclick="textspeech()">Speak</div>
+
+<script src="https://code.responsivevoice.org/responsivevoice.js?key=auvTMQpf"></script>
+<script>
+function textspeech(){ 
+    responsiveVoice.speak(document.querySelector("input").value);
+    document.querySelector("#textInput").value=''
+}
+</script>
+</body>
+</html>

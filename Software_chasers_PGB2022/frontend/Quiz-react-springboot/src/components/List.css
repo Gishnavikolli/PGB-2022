@@ -1,0 +1,15 @@
+.lst{
+        border: none;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 10px ;
+        cursor: pointer;
+        font-size: 25px;
+        color:white;
+        
+        
+      
+
+}

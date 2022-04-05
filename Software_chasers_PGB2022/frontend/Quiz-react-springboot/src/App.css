@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+a{
+  /* color: rgb(38, 46, 163); */
+  padding: 5px;
+  margin-top: 35px;
+}
+ul{
+  padding: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+.content{
+  display:table;
+  padding: 50px;
+  background-color:lightskyblue;
+  /* border-style:groove;
+   */
+   border: 5px solid black;
+   margin-left: 20%;
+   margin-top: 20%;
+}
+
+.container {
+  text-align: center;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  min-height: 100vh;
+  display:flex;
+  color: white;
+  font-size: calc(10px+2vmin);
+  padding-left:500px ;
+}
+.questionClass{
+background-color: white;
+border-radius: 10px;
+border: 1px solid gray;
+padding:16px;
+margin: 10px auto;
+min-width:400px;
+max-width: 900px;
+text-align: center;
+color:#282c34;
+}
+.button-overall{
+column-count:2;
+padding:20px;
+}
+.normal-button{
+background-color: white;
+width: 380px;
+height: 80px;
+padding: 8px;
+margin:24px;
+color:blue;
+font-weight: bolder;
+font-size: larger;
+border-radius: 10px;
+outline: none;
+border:none;
+}
+.green-button{
+color:green;
+}
+.red-button{
+color:red;
+}
+.normal-button:hover{
+transform: scale(1.1);
+transition: transform 200ms ease-in-out;
+cursor: pointer;
+color: bisque;
+}
+.next-question{
+background-color: white;
+width:200px;
+padding:8px;
+font-weight:bolder;
+border-radius:10px;
+}
+
